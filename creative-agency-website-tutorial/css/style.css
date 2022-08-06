@@ -58,13 +58,13 @@ section {
   cursor: pointer;
 }
 
-.toggle.active {
+/*.toggle.active {
   background: var(--primary-color) url(../images/close.png);
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: center;
 }
-
+*/
 .home-content {
   position: relative;
   z-index: 50;
