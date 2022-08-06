@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary-color: #f60f20;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  padding-bottom: 1000px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+p {
+  margin: 20px 0 10px 0;
+  font-size: 1.1rem;
+}
+
+
+section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 2rem;
+  font-weight: 700;
+  z-index: 100;
+}
+
+.toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: var(--primary-color) url(../images/menu.png);
+  z-index: 75;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.toggle.active {
+  background: var(--primary-color) url(../images/close.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-content {
+  position: relative;
+  z-index: 50;
+  max-width: 600px;
+}
+
+.home-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 110%;
+}
+
+
+.btn {
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 20px 0;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.navigation {
+  
+}
