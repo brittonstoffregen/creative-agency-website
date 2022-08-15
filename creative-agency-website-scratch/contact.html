@@ -50,39 +50,70 @@
     </div>
   </header>
 
-  <section class="work-section">
+  <section class="contact-section">
     <div class="title">
-      <h1>Contact us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta minima illo maxime eveniet rerum unde impedit soluta adipisci, perferendis ducimus qui at aperiam nobis dignissimos ratione consequatur a obcaecati ipsa.</p>
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta minima illo maxime eveniet rerum unde impedit soluta adipisci, perferendis ducimus qui at aperiam nobis dignissimos ratione consequatur a obcaecati ipsa?</p>
     </div>
 
-    <section class="contact">
+    <div class="contact-area">
+      
       <div class="contact-form">
         <form>
-          <div class="row-50">
-            <input type="text" placeholder="First Name" required>
-            <input type="text" placeholder="Last Name" required>
+          <div class="row">
+            <div class="input-50">
+              <input type="text" name="first name" placeholder="First Name" required>
+            </div>
+            <div class="input-50">
+              <input type="text" name="last name" placeholder="Last Name" required>
+            </div>
           </div>
-          <div class="row-50">
-            <input type="email" placeholder="Email" required>
-            <input type="text" placeholder="Subject">
+          <div class="row">
+            <div class="input-50">
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-50">
+              <input type="text" name="subject" placeholder="Subject">
+            </div>
           </div>
-          <textarea name="Message" placeholder="Message"></textarea>
+          <div class="row">
+            <textarea placeholder="Message"></textarea>
+          </div>
         </form>
-        <input type="submit" value="send">
+        <div class="row">
+          <div class="input-100">
+            <input type="submit" value="Send">
+          </div>
+        </div>
       </div>
+
       <div class="contact-info">
-        <img src="images/address.png" alt="Adress pin">
-        <h4>Address</h4>
-        <p>5420 94th St. Lubbock, Texas 79424.</p>
-        <img src="images/email.png" alt="">
-        <h4>Email</h4>
-        <a href="mailto:britton@wadeh.com">creativeAgency@example.com</a>
-        <a href="mailto:britton@wadeh.com">agencyCreative@example.com</a>
-        <img src="images/call.png" alt="Phone icon">
-        <a href="tel:8065007187">+1 806-500-7187</a>
+        <div class="info-box">
+          <img src="images/address.png" alt="Address icon">
+          <div class="details">
+            <h4>Address</h4>
+            <p>5420 94th St. Lubbock, Texas 79424.</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <img src="images/email.png" alt="Email icon">
+          <div class="details">
+            <h4>Email</h4>
+            <a href="mailto:britton@wadeh.com">anyone@example.com</a><br/>
+            <a href="mailto:britton@wadeh.com">anyone@example.com</a>
+          </div>
+        </div>
+        <div class="info-box">
+          <img src="images/call.png" alt="Call icon">
+          <div class="details">
+            <h4>Call</h4>
+            <a href="tel:8065007187">+1 800-500-7187</a><br/>
+            <a href="tel:8065007187">+1 800-500-5422</a>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
   <script src="js/script.js"></script>
 </body>
